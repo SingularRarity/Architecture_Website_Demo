@@ -1,0 +1,63 @@
+'use client'
+
+import Image from 'next/image'
+import { motion, useScroll, useTransform } from 'framer-motion'
+
+export default function Hero() {
+  const { scrollY } = useScroll()
+  const y = useTransform(scrollY, [0, 500], [0, -100]) // Parallax effect
+
+  return (
+    <section className="relative h-screen w-full overflow-hidden flex items-center">
+      {/* Video Background Simulator with Image */}
+      <motion.div className="absolute inset-0 z-0 bg-primary" style={{ y }}>
+        <Image
+          alt="Taxila Architecture Hero"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV_N3C-9GMJ1zA3TLNekcqyMfVKxJBKtiKlzIkb5ke5dgXSzHhzO0yC42WIZXZapNW80nGNSR3AEcPyWhcjhlh1sTqvcWon25I5YgvaL9nPTXIgWEgkVwMaTZNMXzWRBNzfIk4ht6wJ-jzik4GQT9wZPIrF6139-XDQVA_DcBCIit9Tj1TBGP9V_ZXvYrZexsFoYgBBO8lTYh2MBGBJwarUV2PSYaDCOed2dtmiBxB2soT6s0sYbbx4GqyAXsYuIx0ItlkXNqFbnM"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/40"></div>
+      </motion.div>
+      <motion.div
+        className="relative z-10 max-w-[1440px] mx-auto px-lg w-full"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.5 }}
+      >
+        <div className="max-w-2xl">
+          <motion.h1
+            className="font-display-xl text-display-xl text-white mb-md"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
+          >
+            Designing Legacy Structures
+          </motion.h1>
+          <motion.p
+            className="font-body-lg text-body-lg text-white/90 mb-xl"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.9 }}
+          >
+            Architecture rooted in timeless principles.
+          </motion.p>
+          <motion.div
+            className="flex gap-md"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1.1 }}
+          >
+            <button className="bg-secondary-fixed text-on-secondary-fixed px-xl py-md font-label-caps text-label-caps font-bold transition-transform hover:scale-105">
+              Explore Projects
+            </button>
+            <button className="border border-white text-white px-xl py-md font-label-caps text-label-caps font-bold transition-all hover:bg-white hover:text-primary">
+              Start Consultation
+            </button>
+          </motion.div>
+        </div>
+      </motion.div>
+    </section>
+  )
+}
