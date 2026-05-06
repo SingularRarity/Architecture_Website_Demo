@@ -8,7 +8,7 @@ export default function FinalCTA() {
         <p className="font-body-lg text-body-lg text-on-secondary-fixed-variant mb-xl max-w-xl mx-auto">
           Contact our studio to discuss your vision for a legacy structure that stands the test of time.
         </p>
-        <button className="bg-primary text-white px-xxl py-md font-label-caps text-label-caps font-bold transition-transform hover:scale-105 shadow-xl">
+        <button className="bg-gold text-on-surface px-xxl py-md font-label-caps text-label-caps font-bold tracking-widest transition-all hover:brightness-90 shadow-md">
           Contact Us
         </button>
       </div>
