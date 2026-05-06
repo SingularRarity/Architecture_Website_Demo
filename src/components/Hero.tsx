@@ -46,16 +46,16 @@ export default function Hero() {
             Architecture rooted in timeless principles.
           </motion.p>
           <motion.div
-            className="flex gap-md"
+            className="flex flex-wrap gap-md"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.1 }}
           >
-            <button className="bg-secondary-fixed text-on-secondary-fixed px-xl py-md font-label-caps text-label-caps font-bold transition-transform hover:scale-105">
-              Explore Projects
+            <button className="bg-gold text-on-surface px-xl py-md font-label-caps text-label-caps font-bold tracking-widest transition-all hover:brightness-90">
+              View Our Work
             </button>
-            <button className="border border-white text-white px-xl py-md font-label-caps text-label-caps font-bold transition-all hover:bg-white hover:text-primary">
-              Start Consultation
+            <button className="border border-white/60 text-white/80 px-xl py-md font-label-caps text-label-caps transition-all hover:border-white hover:text-white">
+              Schedule a Consultation
             </button>
           </motion.div>
         </div>
