@@ -9,7 +9,7 @@ export default function FinalCTA() {
           Contact our studio to discuss your vision for a legacy structure that stands the test of time.
         </p>
         <button className="bg-gold text-on-surface px-xxl py-md font-label-caps text-label-caps font-bold tracking-widest transition-all hover:brightness-90 shadow-md">
-          Contact Us
+          Start Your Project
         </button>
       </div>
     </section>
