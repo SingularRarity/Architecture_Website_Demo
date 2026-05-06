@@ -11,7 +11,7 @@ export default function SocialHub() {
   ]
 
   return (
-    <section className="py-huge max-w-[1440px] mx-auto px-lg">
+    <section className="pt-xxl pb-huge max-w-[1440px] mx-auto px-lg">
       <div className="text-center mb-xl">
         <span className="font-label-caps text-label-caps text-secondary font-bold block mb-sm">
           FOLLOW THE PROCESS

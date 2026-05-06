@@ -18,7 +18,7 @@ export default function Services() {
   ]
 
   return (
-    <section className="py-huge max-w-[1440px] mx-auto px-lg">
+    <section className="pt-xl pb-huge max-w-[1440px] mx-auto px-lg">
       <div className="flex flex-col md:flex-row md:items-start gap-xl md:gap-xxl">
         <div className="md:w-1/3 shrink-0">
           <span className="font-label-caps text-label-caps text-secondary block mb-sm">
