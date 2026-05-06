@@ -3,4 +3,5 @@ node_modules/
 .next/
 out/
 
-CLAUDE.mdtsconfig.tsbuildinfo
+CLAUDE.md
+tsconfig.tsbuildinfo
