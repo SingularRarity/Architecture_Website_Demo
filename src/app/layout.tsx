@@ -13,6 +13,7 @@ const notoSerif = Noto_Serif({
   variable: '--font-noto-serif',
   display: 'swap',
   weight: ['400', '700'],
+  style: ['normal', 'italic'],
 })
 
 export const metadata: Metadata = {

@@ -10,33 +10,33 @@ export default function Header() {
         <nav className="hidden md:flex items-center space-x-xl">
           <Link
             className="text-on-surface-variant dark:text-on-primary-fixed-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 font-label-caps text-label-caps"
-            href="#projects"
+            href="/projects"
           >
             Projects
           </Link>
           <Link
             className="text-on-surface-variant dark:text-on-primary-fixed-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 font-label-caps text-label-caps"
-            href="#philosophy"
+            href="/philosophy"
           >
             Philosophy
           </Link>
           <Link
             className="text-on-surface-variant dark:text-on-primary-fixed-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 font-label-caps text-label-caps"
-            href="#services"
+            href="/services"
           >
             Services
           </Link>
           <Link
             className="text-on-surface-variant dark:text-on-primary-fixed-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 font-label-caps text-label-caps"
-            href="#studio"
+            href="/consultation"
           >
             Studio
           </Link>
         </nav>
         <div className="flex items-center gap-md">
-          <button className="font-label-caps text-label-caps font-bold text-primary px-lg py-sm border border-primary hover:bg-primary hover:text-white transition-all duration-300">
+          <Link href="/consultation" className="font-label-caps text-label-caps font-bold text-primary px-lg py-sm border border-primary hover:bg-primary hover:text-white transition-all duration-300">
             Contact
-          </button>
+          </Link>
         </div>
       </div>
     </header>

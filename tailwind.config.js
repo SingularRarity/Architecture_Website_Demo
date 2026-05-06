@@ -56,6 +56,7 @@ const config = {
         "on-primary": "#ffffff",
         "inverse-surface": "#2f3031",
         "on-error-container": "#93000a",
+        "gold": "#C5A059",
       },
       borderRadius: {
         DEFAULT: "0.25rem",
@@ -73,12 +74,12 @@ const config = {
         xl: "48px",
       },
       fontFamily: {
-        "display-xl": ["Noto Serif"],
-        "headline-lg": ["Noto Serif"],
-        "headline-md": ["Noto Serif"],
-        "label-caps": ["Inter"],
-        "body-md": ["Inter"],
-        "body-lg": ["Inter"],
+        "display-xl": ["var(--font-noto-serif)", "Noto Serif", "serif"],
+        "headline-lg": ["var(--font-noto-serif)", "Noto Serif", "serif"],
+        "headline-md": ["var(--font-noto-serif)", "Noto Serif", "serif"],
+        "label-caps": ["var(--font-inter)", "Inter", "sans-serif"],
+        "body-md": ["var(--font-inter)", "Inter", "sans-serif"],
+        "body-lg": ["var(--font-inter)", "Inter", "sans-serif"],
       },
       fontSize: {
         "display-xl": ["72px", { "lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
