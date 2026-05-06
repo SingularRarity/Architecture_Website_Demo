@@ -25,6 +25,8 @@ export default function HorizontalGallery() {
               alt={`Gallery ${index + 1}`}
               src={project.image}
               fill
+              sizes="(max-width: 768px) 80vw, 40vw"
+              unoptimized
               className="object-cover"
             />
             <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/40 transition-all duration-500 flex flex-col justify-end p-xl">

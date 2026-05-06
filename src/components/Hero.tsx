@@ -15,6 +15,8 @@ export default function Hero() {
           alt="Taxila Architecture Hero"
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV_N3C-9GMJ1zA3TLNekcqyMfVKxJBKtiKlzIkb5ke5dgXSzHhzO0yC42WIZXZapNW80nGNSR3AEcPyWhcjhlh1sTqvcWon25I5YgvaL9nPTXIgWEgkVwMaTZNMXzWRBNzfIk4ht6wJ-jzik4GQT9wZPIrF6139-XDQVA_DcBCIit9Tj1TBGP9V_ZXvYrZexsFoYgBBO8lTYh2MBGBJwarUV2PSYaDCOed2dtmiBxB2soT6s0sYbbx4GqyAXsYuIx0ItlkXNqFbnM"
           fill
+          sizes="100vw"
+          unoptimized
           className="object-cover"
           priority
         />

@@ -28,7 +28,8 @@ export default function SocialHub() {
             src={src}
             width={200}
             height={200}
-            className="aspect-square object-cover rounded-lg"
+            unoptimized
+            className="aspect-square object-cover rounded-lg w-full"
           />
         ))}
       </div>

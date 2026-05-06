@@ -9,6 +9,8 @@ export default function InteractiveMap() {
           alt="Project Locations Map"
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuDprUngrqyGoM7sIEHOtiz9xzehWIueAyLBBFP70xWqnCH7oJW9-rsR6ZnS7w7AkG8KdFbQ5dZZti3IGYThSHGjNQfF2QhIAkX1L0AmZ3gNeQU3kDdXpl9rpK4ApAMdKRhFdDNOqFbu1A-3oLPYyy-TTJz-EOJrrXR1SBjF58ELKOVXqRZvsMOsveYZ67fvIrKIGpKzwUKeXwKnxyQhkSQbd1PSasHvg17Ru-rkPPRRRdi2g8K65ws"
           fill
+          sizes="(max-width: 768px) 100vw, calc(100vw - 400px)"
+          unoptimized
           className="object-cover mix-blend-multiply opacity-50"
         />
         {/* Map Pin */}
