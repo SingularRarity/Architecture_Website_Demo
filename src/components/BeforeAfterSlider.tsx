@@ -16,7 +16,7 @@ export default function BeforeAfterSlider() {
           {/* After Image */}
           <Image
             alt="Transformation After"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS6QVzgAJoo-DdnrUwlFrq43H7uwo9Cm-yBaFJ5CTsrxf4dVn8vQ-S6wXCsufufAAY91zrWh5BiAyJPZ9NGnFrYpalMYGs6aYdkKPVKGJ2q880ShhKdZj6mjSbb0ZC6qF7M5nGvgAVVOB0wD4dSNe0Vidk2Shz6klzEUWuU7Y6pelxjZPCIzOeVRbpcxiKKzTcLdoUPDNpZAylQOlsYjMnD4ZQqOFeaE3cLkib9bDzRdYpqMCjkpIY2VR-rHVWbNcLdfmxNKD6G7E"
+            src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1600&q=85&auto=format&fit=crop"
             fill
             sizes="100vw"
             unoptimized
@@ -26,7 +26,7 @@ export default function BeforeAfterSlider() {
           <div className="absolute inset-0 w-1/2 overflow-hidden border-r-4 border-secondary-fixed">
             <Image
               alt="Transformation Before"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP2z0XbGGXBrwuJ9hui4q2ZztfSsjgp_LPra-4G15j4RTnHFxu6OiwsUXAJPV9Cv1iGe1QqdVsq6D8zdsubSScX-L2DW2UBWbxp4jzG8uhoygrfjoqDewzimjAemFPWLMx-59fiYMPmOAB_cZ5GLHLOSN9pfYyLLdxWYcVCx5pvdvMEKgpzBtc0Uo2IEf2cj_kPpQsah266QnpnTRu6WF4FVRQwrSmkGOwIJRPBzXZDXY6TyYJv7IRtJw9ZoczZrkYNFj3nBzmpI"
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=85&auto=format&fit=crop"
               fill
               sizes="50vw"
               unoptimized

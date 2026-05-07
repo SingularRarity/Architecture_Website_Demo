@@ -22,7 +22,7 @@ export default function FeaturedProject() {
         >
           <Image
             alt="Featured Project: The Stone Pavilion"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLe1eYy1dR7U-hWUH0o6VVxAnQrZJvPabNfaXlaUTcvNG54L_BLlJkIp7q4YOCFkOv5rdh7g9iYXt_GP5s70lIz1cJQDn3IxQl_09rtDoam2FFagJpB7o9L11txjxqprb-FAK0hdiW_QXpmi-K-S9R5A6LMvT16GAhnAh4vN4oxivf4t7_5TDOJoGPqLaRf-Dp4_KDCqXWBAwJCnAirLylFSIcJ5BNJxcVD_BAo6N_aJ4oLU8fL-VC2tlNfrzjtqiZy-sXJ1MJ4HQZhxzXKBW_b5jEk6V3byb8Q6ikk0P6Wh4NCncDNDzAA0iJUkoKGX8whbjjYWbDJrxYNwMa_TNqVLo"
+            src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=85&auto=format&fit=crop"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             unoptimized

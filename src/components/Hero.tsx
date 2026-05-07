@@ -13,7 +13,7 @@ export default function Hero() {
       <motion.div className="absolute inset-0 z-0 bg-primary" style={{ y }}>
         <Image
           alt="Taxila Architecture Hero"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV_N3C-9GMJ1zA3TLNekcqyMfVKxJBKtiKlzIkb5ke5dgXSzHhzO0yC42WIZXZapNW80nGNSR3AEcPyWhcjhlh1sTqvcWon25I5YgvaL9nPTXIgWEgkVwMaTZNMXzWRBNzfIk4ht6wJ-jzik4GQT9wZPIrF6139-XDQVA_DcBCIit9Tj1TBGP9V_ZXvYrZexsFoYgBBO8lTYh2MBGBJwarUV2PSYaDCOed2dtmiBxB2soT6s0sYbbx4GqyAXsYuIx0ItlkXNqFbnM"
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=85&auto=format&fit=crop"
           fill
           sizes="100vw"
           unoptimized

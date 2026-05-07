@@ -115,7 +115,7 @@ export default function ConsultationPage() {
                       </div>
                       <div className="mt-xl aspect-video bg-surface-container-high rounded-lg overflow-hidden relative">
                         <Image
-                          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmel2lIfKL8jS_I_unxUupSll6oQ2yHLEqcjLEMG7Ac7-PO8-QUR0_hE4WwO3eCuRTxPK8sxWTLLBywH9mLWLeDFp4FZpFDpMGBcsxZJ6BBck_SQzE-up-51fZathRkonnDUvuRYP5P5OKOCl-FODnQuvWMNKLFZ3gKrVAjzpqWKG8AZAd9pWSmyPCKBhVQHuEMIjQipk7hxX6RPLRhBsPYw4aOD7L8tmlUJ6xYbBz_ffwdMtw8xQUYC4anvkAvr-oLVic5nU5bHs"
+                          src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&q=80&auto=format&fit=crop"
                           alt="Site map preview"
                           fill
                           unoptimized

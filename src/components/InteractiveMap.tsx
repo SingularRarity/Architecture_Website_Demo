@@ -7,7 +7,7 @@ export default function InteractiveMap() {
         {/* Simulated Map */}
         <Image
           alt="Project Locations Map"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuDprUngrqyGoM7sIEHOtiz9xzehWIueAyLBBFP70xWqnCH7oJW9-rsR6ZnS7w7AkG8KdFbQ5dZZti3IGYThSHGjNQfF2QhIAkX1L0AmZ3gNeQU3kDdXpl9rpK4ApAMdKRhFdDNOqFbu1A-3oLPYyy-TTJz-EOJrrXR1SBjF58ELKOVXqRZvsMOsveYZ67fvIrKIGpKzwUKeXwKnxyQhkSQbd1PSasHvg17Ru-rkPPRRRdi2g8K65ws"
+          src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1400&q=80&auto=format&fit=crop"
           fill
           sizes="(max-width: 768px) 100vw, calc(100vw - 400px)"
           unoptimized
