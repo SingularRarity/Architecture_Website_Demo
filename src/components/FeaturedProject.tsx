@@ -45,12 +45,12 @@ export default function FeaturedProject() {
           <p className="font-label-caps text-label-caps text-on-surface-variant mb-md">
             Hyderabad, India • 2023
           </p>
-          <p className="font-body-lg text-body-lg text-on-surface-variant mb-xl leading-relaxed">
+          <p className="font-body-lg text-body-lg text-on-surface-variant mb-xl">
             A dialogue between geological permanence and modern spatial fluidity. Designed for a multigenerational family, this estate utilizes local basalt and teak wood to ground its contemporary silhouette in the regional landscape.
           </p>
           <a
             className="inline-flex items-center font-label-caps text-label-caps text-secondary font-bold group"
-            href="#"
+            href="/projects"
           >
             View Project{' '}
             <span className="material-symbols-outlined ml-xs transition-transform group-hover:translate-x-1">

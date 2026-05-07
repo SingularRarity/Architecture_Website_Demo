@@ -4,9 +4,14 @@ export default function BeforeAfterSlider() {
   return (
     <section className="py-huge overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-lg">
-        <h2 className="font-headline-lg text-headline-lg text-on-surface mb-xl text-center">
-          Transforming Landscapes
-        </h2>
+        <div className="text-center mb-xl">
+          <span className="font-label-caps text-label-caps text-secondary font-bold block mb-sm">
+            THE TRANSFORMATION
+          </span>
+          <h2 className="font-headline-lg text-headline-lg text-on-surface">
+            Transforming Landscapes
+          </h2>
+        </div>
         <div className="relative w-full aspect-video md:aspect-[21/9] rounded-xl overflow-hidden group">
           {/* After Image */}
           <Image
@@ -27,6 +32,13 @@ export default function BeforeAfterSlider() {
               unoptimized
               className="object-cover grayscale opacity-60"
             />
+          </div>
+          {/* Labels */}
+          <div className="absolute top-md left-md">
+            <span className="font-label-caps text-label-caps text-white/80 bg-black/40 px-sm py-xs rounded">BEFORE</span>
+          </div>
+          <div className="absolute top-md right-md">
+            <span className="font-label-caps text-label-caps text-white/80 bg-black/40 px-sm py-xs rounded">AFTER</span>
           </div>
           {/* Slider Handle */}
           <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-secondary-fixed flex items-center justify-center -translate-x-1/2">
