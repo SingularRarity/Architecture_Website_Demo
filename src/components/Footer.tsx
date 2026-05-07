@@ -9,7 +9,7 @@ export default function Footer() {
             Taxila
           </Link>
           <p className="font-body-md text-body-md text-on-surface-variant">
-            © 2024 Taxila Architecture.<br />Crafted for permanence.
+            © 2026 Taxila Architecture.<br />Crafted for permanence.
           </p>
         </div>
         <div>
